@@ -1,0 +1,40 @@
+[2022-03-29 02:43:40,455: INFO: data_loader_training] Started validating the file
+[2022-03-29 02:43:57,760: INFO: data_loader_training] Getting data from the file
+[2022-03-29 02:43:57,760: INFO: TrainingDataValidation] getting column names to store in dataframe
+[2022-03-29 02:44:06,247: INFO: generateFeatures] Date Features Creation Started
+[2022-03-29 02:44:13,839: INFO: generateFeatures] Diff Features Creation Started
+[2022-03-29 02:44:14,524: INFO: preprocessing] Started Column Dropping
+[2022-03-29 02:44:15,349: INFO: preprocessing] Succesfully dropped columns
+[2022-03-29 02:44:15,349: INFO: preprocessing] Started encoding features
+[2022-03-29 02:44:32,086: INFO: preprocessing] Started Column Dropping
+[2022-03-29 02:44:33,454: INFO: preprocessing] Succesfully dropped columns
+[2022-03-29 02:44:33,455: INFO: preprocessing] Started Scaling of Numeric Columns
+[2022-03-29 02:44:34,834: INFO: preprocessing] Finished Scaling of Numeric Columns
+[2022-03-29 02:44:34,885: INFO: preprocessing] Starting train test split of data
+[2022-03-29 02:44:38,981: INFO: preprocessing] starting upsampling of data
+[2022-03-29 02:44:49,226: INFO: clustering] Finding Optimal cluster number
+[2022-03-29 02:45:16,811: INFO: clustering] Finished creating Cluster 1
+[2022-03-29 02:46:36,400: INFO: clustering] Finished creating Cluster 2
+[2022-03-29 02:48:09,778: INFO: clustering] Finished creating Cluster 3
+[2022-03-29 02:50:14,739: INFO: clustering] Finished creating Cluster 4
+[2022-03-29 02:52:20,785: INFO: clustering] Finished creating Cluster 5
+[2022-03-29 02:55:11,464: INFO: clustering] Finished creating Cluster 6
+[2022-03-29 02:58:04,392: INFO: clustering] Finished creating Cluster 7
+[2022-03-29 03:01:48,314: INFO: clustering] Finished creating Cluster 8
+[2022-03-29 03:05:15,734: INFO: clustering] Finished creating Cluster 9
+[2022-03-29 03:08:41,594: INFO: clustering] Finished creating Cluster 10
+[2022-03-29 03:08:41,659: INFO: clustering] Started Tagging of the clusters to dataframe
+[2022-03-29 03:10:18,759: INFO: clustering] Generate elbow graph for pre-defined clusters
+[2022-03-29 03:10:21,826: INFO: models] Started Training RandomForest Model on Cluster 0
+[2022-03-29 08:15:43,429: INFO: models] Finished Training RandomForest Model on Cluster 0
+[2022-03-29 08:17:30,049: INFO: models] Started Training XGboost Model on Cluster 0
+[2022-03-29 08:42:58,574: INFO: models] Finished Training XGboost Model on Cluster 0
+[2022-03-29 08:43:19,434: INFO: models] Started Training RandomForest Model on Cluster 1
+[2022-03-29 14:15:04,158: INFO: models] Finished Training RandomForest Model on Cluster 1
+[2022-03-29 14:16:54,402: INFO: models] Started Training XGboost Model on Cluster 1
+[2022-03-29 14:49:20,782: INFO: models] Finished Training XGboost Model on Cluster 1
+[2022-03-29 14:49:43,884: INFO: models] Started Training RandomForest Model on Cluster 2
+[2022-03-29 16:30:38,612: INFO: models] Finished Training RandomForest Model on Cluster 2
+[2022-03-29 16:31:05,726: INFO: models] Started Training XGboost Model on Cluster 2
+[2022-03-29 16:45:15,111: INFO: models] Finished Training XGboost Model on Cluster 2
+[2022-03-29 16:45:17,743: INFO: bestmodel] started storing best models for each clusters
