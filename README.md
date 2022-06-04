@@ -30,7 +30,7 @@ Dataset was taken from https://www.kaggle.com/datasets/ealaxi/paysim1
 
 * git clone the code to your local system
 * install requirements.txt ```pip install -r requirements.txt```
-* download the entire model folder from https://drive.google.com/drive/folders/1vTTrufPkEYgtKjVzv7XmrWUusVz4dbOP?usp=sharing and save it to your local cloned folder
+* download the entire model and save it to your local cloned folder
 * run the below command 
   * streamlit run app.py
 
