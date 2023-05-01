@@ -4,7 +4,7 @@ CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.dirname(CURRENT_DIR))
 import pandas as pd
 import argparse 
-from data_ingestion.data_loader_prediction import PredictionDataGetter
+from Dataingestion.data_loader_prediction import PredictionDataGetter
 from data_preprocessing.preprocessing import Preprocess
 from src.utils.common import read_config
 from log.logger import Logger
