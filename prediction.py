@@ -7,8 +7,8 @@ import argparse
 from DataIngestion.data_loader_prediction import PredictionDataGetter
 from DataPreprocessing.preprocessing import Preprocess
 from src.utils.common import read_config
-from log.logger import Logger
-from FeatureGeneration.generateFeatures import GenerateNewFeatures
+from Logs.logger import Logger
+from Featurescreation.generateFeatures import GenerateNewFeatures
 from src.utils.clustering import Cluster
 from src.utils.models import Trainmodel
 import pickle
