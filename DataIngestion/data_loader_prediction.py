@@ -2,9 +2,9 @@ import os
 import sys
 CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
 sys.path.append(os.path.dirname(CURRENT_DIR))
-from log.logger import Logger
+from Logs.logger import Logger
 from src.utils.common import read_config
-from database_operation.mongo_operation import MongodbOperations
+from Database_Operation.mongo_operation import MongodbOperations
 from DataValidation.TestDataValidation import ValidateFile 
 from src.utils.utils import get_unique_tablename
 import pandas as pd
